@@ -1,0 +1,51 @@
+\hypertarget{_ecuacion_8h}{}\doxysection{Ecuacion.\+h File Reference}
+\label{_ecuacion_8h}\index{Ecuacion.h@{Ecuacion.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_ecuacion_8h_a0b92738856c4bda43003d1c847483dd2}{GP\+\_\+\+MAX\+\_\+\+TMP\+\_\+\+FILES}}~64
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_ecuacion_8h_a6c36bf9ea41c1a3d85655ecf720de1bf}{tablaC}} (int r1, int r2, int m, int b)
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{_ecuacion_8h_a6c36bf9ea41c1a3d85655ecf720de1bf}{tabla\+C()}} inicia una operacion para guardar las coordenadas en un cierto rango. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_ecuacion_8h_a0b92738856c4bda43003d1c847483dd2}\label{_ecuacion_8h_a0b92738856c4bda43003d1c847483dd2}} 
+\index{Ecuacion.h@{Ecuacion.h}!GP\_MAX\_TMP\_FILES@{GP\_MAX\_TMP\_FILES}}
+\index{GP\_MAX\_TMP\_FILES@{GP\_MAX\_TMP\_FILES}!Ecuacion.h@{Ecuacion.h}}
+\doxysubsubsection{\texorpdfstring{GP\_MAX\_TMP\_FILES}{GP\_MAX\_TMP\_FILES}}
+{\footnotesize\ttfamily \#define GP\+\_\+\+MAX\+\_\+\+TMP\+\_\+\+FILES~64}
+
+Maximal number of simultaneous temporary files 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_ecuacion_8h_a6c36bf9ea41c1a3d85655ecf720de1bf}\label{_ecuacion_8h_a6c36bf9ea41c1a3d85655ecf720de1bf}} 
+\index{Ecuacion.h@{Ecuacion.h}!tablaC@{tablaC}}
+\index{tablaC@{tablaC}!Ecuacion.h@{Ecuacion.h}}
+\doxysubsubsection{\texorpdfstring{tablaC()}{tablaC()}}
+{\footnotesize\ttfamily void tablaC (\begin{DoxyParamCaption}\item[{int}]{r1,  }\item[{int}]{r2,  }\item[{int}]{m,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+
+
+\mbox{\hyperlink{_ecuacion_8h_a6c36bf9ea41c1a3d85655ecf720de1bf}{tabla\+C()}} inicia una operacion para guardar las coordenadas en un cierto rango. 
+
+Las coordenadas se guardan en la cadena de valores de tipo entero \char`\"{}x\char`\"{} y \char`\"{}y\char`\"{}, para despues ser impresas en formato de tabla.
+
+tablaC = Tabla de Coordenadas 
+\begin{DoxyParams}{Parameters}
+{\em m} & Guarda el dato \char`\"{}m\char`\"{} de la funcion. \\
+\hline
+{\em b} & Guarda el dato \char`\"{}r\char`\"{} de la funcion. \\
+\hline
+{\em r1} & Para alojar el rango inferior o izquierdo. \\
+\hline
+{\em r2} & Para alojar el rango superior o derecho. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}

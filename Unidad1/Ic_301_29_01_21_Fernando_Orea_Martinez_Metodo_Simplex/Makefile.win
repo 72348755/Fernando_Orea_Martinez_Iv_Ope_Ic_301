@@ -1,0 +1,31 @@
+# Project: Unidad 1
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Main.o "Metodo\ Simplex.o"
+LINKOBJ  = Main.o "Metodo Simplex.o"
+LIBS     = -L"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/lib" -L"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/include" -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/include" -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Users/fer30/Documents/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = "Unidad 1.exe"
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Main.o: Main.c
+	$(CC) -c Main.c -o Main.o $(CFLAGS)
+
+"Metodo\ Simplex.o": Metodo\ Simplex.c
+	$(CC) -c "Metodo Simplex.c" -o "Metodo Simplex.o" $(CFLAGS)

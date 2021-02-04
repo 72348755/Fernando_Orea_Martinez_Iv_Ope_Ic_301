@@ -1,0 +1,28 @@
+¿Que es un algoritmo?
+Serie de instrucciones, pasos para corregir algo, no es algo propio de la programacion, nuestro dia a dia esta lleno 
+de algoritmos sean pasos a seguir como por ejemplo un algoritmo facil como preparar una taza de te
+
+¿Que es un programa de computadora?
+Es una serie de instrucciones que sigue un algoritmo para afectar para hacer una tarea en particular
+
+¿Que es un compilador?
+Es una herramienta de la palabra traducir, que trasforma y obtener un arcgivo binario o ejecutable
+podemos decir que es un traductor 
+
+¿Que es un lenguaje de programacion?
+No es mas que otro lenguaje o sistema informatico que solo lo entienede una computadora, hay diferentes tipos de lenguajes
+en la programacion y eso surge por tener un objetivo diferente
+
+¿Que es un sistema operativo?
+Es una capa intermedio entre el usuario y el hardware que permite acceder de forma segura (almacenamiento procesameinto) 
+de una PC
+
+¿Que es una IDE?
+Es una herrameinta (programa de computadora sotfware) que permite el desarrollo o programa de computadora 
+
+¿Que es un compilador nativa?
+Es ejecutar en una mismp sitio, es decir que un mismo Host se compilo y ejecuta un programa de computadora 
+
+¿Que es un compilador cruzado?
+Es el proceso de complilar en un sitio y ejecutar en otro diferente Hast,(computadora o PC) Target (movil,tablet)
+  
